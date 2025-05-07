@@ -1,5 +1,7 @@
 # Lab 5 - Starter
 Contributers: Ryan Garcia
+[Expose](https://ryanrgarcia.github.io/Lab5_Starter/expose.html)
+[Explore](https://ryanrgarcia.github.io/Lab5_Starter/explore.html)
 
 1. No, I would not use a unit test to test the "message" feature of a messaging application because we must check/test how the message is recieved on the recieving end which involves another component/feature of the messaging application so a unit test cannot test this. Like I mentioned, we must check if the other user recieved the message which is definitely a different feature than being able to send the message to another user.
 2. Yes, I would use a unit test to test the "max message length" feature of a messaging application because this can be tested within the same feature of the messaging application. This max message length feature would not interact with other features of the application and doesn't rely/depend on other parts of the application to be completed.
